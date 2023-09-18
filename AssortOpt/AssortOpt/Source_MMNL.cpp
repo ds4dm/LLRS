@@ -1522,7 +1522,7 @@ int main(int argc, char* argv[]) {
     solveLP = false;
 
     char csv_name[1000];
-    strcpy(csv_name,"../ciaone_MMNL.csv");
+    strcpy(csv_name,"../output_MMNL.csv");
 
     if ((csv_out = fopen(csv_name, "a")) == NULL) {
         printf(" *** Warning: cannot open csv file %s\n", csv_name);

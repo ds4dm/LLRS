@@ -58,7 +58,6 @@ The following 2 arguments need to be provided to the script:
 The code will print some statistics (some of which reported in the paper) in the output files
 
     - output_MMNL.csv -> for each experiment, print the following statistics
-      stopping_reason, time_closethegap, time_boundig_pric);
             id_string : id of the experiment
             filename  : instance used for the experiment
             bool_maxC : 1 if the cardinality-constrained version of the problem was solved, 0 otherwise (UNconstrained problem)
